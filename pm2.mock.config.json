@@ -1,0 +1,12 @@
+{
+  "apps":
+  {
+    "name": "zzbank",
+    "script": "./mock/server.js",
+    "exec_mode" : "cluster_mode",
+    "error_file" : "./logs/mock-error.log",
+    "out_file": "./logs/mock-out.log",
+    "instances": 1,
+    "merge_logs": true
+  }
+}

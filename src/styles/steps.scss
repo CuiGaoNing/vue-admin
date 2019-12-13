@@ -1,0 +1,97 @@
+/*步骤条*/
+/*样式一：cirlce*/
+.el-steps[type="circle"] .el-step__head .el-step__icon-inner {
+    color: transparent;
+}
+.el-steps[type="circle"] .el-step__line-inner {
+    border-width: 0!important;
+}
+.el-steps[type="circle"] .el-step__head.is-finish .el-step__line,
+.el-steps[type="circle"] .el-step__head.is-process .el-step__line{
+    background-color: #5974c8 !important;
+    height: 6px;
+}
+.el-steps[type="circle"] .el-step__head.is-wait .el-step__line{
+    background-color: #ccc !important;
+    height: 6px;
+}
+.el-steps[type="circle"] .el-step__head.is-finish .el-step__icon.is-text{
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    border: solid 8px #adb9e3 !important;
+    background: #5974c8!important;
+}
+.el-steps[type="circle"] .el-step__head.is-process .el-step__icon.is-text{
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    border: solid 8px #b3c3f6;
+    background: #6383e9!important;
+}
+.el-steps[type="circle"] .el-step__head.is-wait .el-step__icon.is-text{
+    width: 12px;
+    height: 12px;
+    top: 4px;
+    background: #9e9e9e!important;
+    border: 0;
+}
+.el-steps[type="circle"] .el-step__title.is-process,
+.el-steps[type="circle"] .el-step__description.is-process{
+    color: #5974c8!important;
+}
+.el-steps[type="circle"] .el-step__title.is-wait,
+.el-steps[type="circle"] .el-step__description.is-wait{
+    color: #9e9e9e!important;
+}
+/*样式二：label*/
+.el-steps[type="label"] .el-step__head {
+    display: none;
+}
+.el-steps[type="label"] .el-step__title{
+    width: 80%;
+    height:30px;
+    line-height: 30px;
+    margin-left: 10%;
+    padding-left: 16px;
+    color: #fff !important;
+}
+.el-steps[type="label"] .el-step__title.is-finish{
+    background-color:#5974c8 !important;
+}
+.el-steps[type="label"] .el-step__title.is-process{
+    background-color:#6383e9 !important;
+}
+.el-steps[type="label"] .el-step__title.is-wait{
+    background-color:#ddd !important;
+    color: #666 !important;
+}
+.el-steps[type="label"] .el-step__title:before,
+.el-steps[type="label"] .el-step__title:after{
+    content: "";
+    width: 0;
+    border: solid 15px transparent;
+    border-right: 0;
+    border-left: solid 26px #fff;
+    position: absolute;
+}
+.el-steps[type="label"] .el-step__title:before {
+    left: 10%;
+}
+.el-steps[type="label"] .el-step__title:after {
+    left: 90%;
+}
+.el-steps[type="label"] .el-step__title.is-finish:after {
+    border-left-color: #5974c8;
+}
+.el-steps[type="label"] .el-step__title.is-process:after {
+    border-left-color: #6383e9;
+}
+.el-steps[type="label"] .el-step__title.is-wait:after {
+    border-left-color: #ddd;
+}
+.el-steps[type="label"] .el-step:first-of-type .el-step__title:before,
+.el-steps[type="label"] .el-step:last-of-type .el-step__title:after {
+    border-left-color:transparent;
+}
+/* 步骤条样式结束*/

@@ -1,0 +1,18 @@
+{
+  "errorCode": 0,
+  "errorMsg": "Success",
+  "content": {
+    "csrfToken": "e8b0ed6f-127f-4eac-886a-371c065c1407",
+    "csrfHeaderName": "CsrfToken"
+  },
+  "message": [
+    {
+      "item": "userName",
+      "message": "用户名或密码错误"
+    },
+    {
+      "item": "authCode",
+      "message": "验证码错误"
+    }
+  ]
+}

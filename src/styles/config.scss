@@ -1,0 +1,105 @@
+.card-div{
+  float: left;
+  width: 9%;
+  margin-right: 1%;
+  min-width: 120px;
+  height: 175px;
+  margin-bottom: 20px
+}
+.card-name{
+  position: absolute;
+  width: 7%;
+  margin: 8px 8px;
+  min-width: 86px;
+}
+.card-name>label {
+  -ms-text-overflow: clip;
+  -moz-text-overflow: clip;
+  -webkit-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 110px;
+}
+.card-name .el-checkbox__label {
+  padding-left: 5px
+}
+.card-body{
+  width: 100%;
+}
+.box-card {
+  height: 175px;
+  .clearfix{
+    font-weight: bold
+  }
+}
+.none-p{
+  text-align: center;
+  font-size: 14px;
+  color: #909399;
+}
+.tagsarea{
+  margin-top: -4px;
+  padding: 0;
+  display: inline-block;
+}
+.tag{
+  margin-bottom: 5px;
+  float: left;
+  color: rgb(51, 122, 183);
+  background: rgba(255,255,255,0.5);
+  border-color: rgb(51, 122, 183);
+  margin-right: 2px;
+}
+.box-card:hover{
+  border: #e6a23c solid 1px;
+}
+.active{
+  border: #e6a23c solid 1px;
+}
+.more{
+  line-height: 16px;
+  margin-top: -6px;
+}
+.span01{
+  background: #bfd9f3;
+}
+.span02{
+  background: #b0edf3;
+}
+.span03{
+  background: #31b0d5;
+}
+.paddingL15{
+  padding-left: 15px;
+}
+.margin15{
+  margin: 15px 15px;
+}
+.padding15{
+  padding: 15px;
+  position: relative;
+}
+
+.marginL20{
+  margin-left: 20px;
+}
+.wider-transfer /deep/ .el-transfer-panel{
+  width:304px
+}
+.wider-transfer .el-transfer__button:nth-child(2){
+  margin-left: 3px;
+  margin-right: 3px;
+}
+.wider-transfer /deep/ .el-transfer-panel__filter .el-input__icon{
+  margin-left: 0;
+}
+.wider-transfer /deep/ .el-transfer-panel__filter {
+  margin: 10px;
+}
+.tr-show{
+  display: block!important;
+}
+.tr-hide{
+  display: none!important;
+}

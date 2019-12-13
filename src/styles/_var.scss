@@ -1,0 +1,350 @@
+/* Colors - 告警颜色/主要颜色
+* 在线颜色命名工具：http://chir.ag/projects/name-that-color/#6195ED
+* 注意：不在组件内直接使用以下颜色值
+---------------------------- */
+/* UI规范-------基础颜色
+---------------------所有颜色值 */
+$primary: #005fe0; // 主色,用于需要强调和突出的文字、可点击的文字、聚焦颜色、icon颜色、小控件、分页按钮颜色
+$button-color: #1e7de3; // 辅助色，用于button颜色，步骤进度条颜色
+$button-bg-disabled: #1570d1; // 不可点击状态按钮底色
+$button-hover-bg: #219afc; // hover状态按钮底色
+$button-visited-bg: #2170c4; // 点击状态按钮底色
+$title-color: #072e65; // 用于标题，需要强调和突出的文字
+$default-color: #9e9e9e; // 取消按钮边框、文本默认颜色
+$nav-color: #50698d; // 面包屑导航色
+$--color-primary: $button-color;
+/* UI规范-------辅助色
+---------------------所有颜色值 */
+$ui-auxiliary1-color: #5ec2d1;
+$ui-auxiliary2-color: #44a9db;
+$ui-auxiliary3-color: #5192d6;
+$ui-auxiliary4-color: #4f7bbd;
+
+/* UI规范-------一般
+---------------------所有颜色值 */
+$font-color-default: #333;    // 用于文字内容、主要内容
+$font-less-color: #666;    // 用于文字内容、次要内容
+$font-disabled: #9e9e9e; // 用于不可点击内容、解释说明
+
+/* UI规范-------较弱
+---------------------所有颜色值 */
+$split-line: #eee;    // 用于内容栏描边和分割线颜色
+$sub-border: #ddd;    // 用于控件框的颜色
+$card-bg: #f0f4f7; // 用于卡片页面背景色
+
+/* UI规范-------提示
+---------------------所有颜色值 */
+$success-color: #3dc4b0; // 成功色
+$fail-color: #e85a66; // 失败色
+$warn-color: #efa564; // 警告色
+$notice-color: #44a9db; // 通知色
+
+/* UI规范-------字体
+---------------------所有字体大小 */
+
+$ui-font1-size: 24px; // 多用于标题或者重要展示 (加粗)
+$ui-font2-size: 18px; // 多数用于副标题或者需要强调的文字
+$ui-font4-size: 14px; // 用于做左侧一级导航，表头文字，icon文字
+$ui-font5-size: 12px; // 用于模块标题，大多数文字
+$ui-font6-size: 12px; // 用于比较密集的关键词或者说明文字
+$ui-font7-size: 10px; // 用于图表标注说明
+$ui-font8-size: 14px; // 用于一般字数
+$ui-font9-size: 12px; // 用于最弱显示数字
+
+/* UI规范-------字体类型
+---------------------所有字体类型 */
+$ui-font1-type: '微软雅黑'; // Win系统
+$ui-font2-type: 'Hiragino Sans GB'; // Mac系统
+
+/* UI规范-------按钮
+---------------------按钮规范 */
+$ui-button-width: 90px;           // 宽度不小于88px
+$ui-button-border-radius: 2px;    // 圆角
+$ui-button-height1: 34px;         // 默认高度
+$ui-button-height2: 30px;         // 小型按钮高度
+
+/* UI规范-------输入框
+---------------------输入框规范 */
+$ui-input-height1: 32px;         // 默认高度
+$ui-input-height2: 28px;         // 小型按钮高度
+$ui-input-height3: 36px;         // 大型按钮高度
+
+/* UI规范-------Tabs
+---------------------Tabs规范 */
+$ui-tabs-padding-buttom: 14px;    // tabs名称下边距
+$ui-tabs-padding: 15px;           // tabs名称上下边距
+
+/* UI规范-------弹框
+---------------------弹框规范 */
+$ui-messagebox-width: 530px;    // 删除的弹框宽度
+$ui-messagebox-height: 202px;   // 删除的弹框高度
+$ui-messagebox-color: #414b6e;   // 删除的x颜色
+$ui-messagebox-default-width: 620px;    // 一般弹框宽度
+$ui-messagebox-default-height: 202px;   // 删除的弹框高度
+
+/* UI规范-------opacity
+---------------------opacity规范 */
+$ui-opacity1: 0.8;
+$ui-opacity2: 1;
+
+$gray: #4d4e4e;          /* 基础颜色 -- 灰色 */
+$silver: #CCCCCC;        /* 基础颜色 -- 银色 */
+$light-gray: #F6F6F6;    /* 基础颜色 -- 浅灰色 */
+$red: #FF0000;           /* 基础颜色 -- 红色 */
+$blue: #0d98d7;           /* 基础颜色 -- 蓝色 */
+
+$black: #000000;           /* 字体颜色 -- 黑色 */
+$white: #FFFFFF;           /* 基础颜色 -- 白色 */
+$nav-default: #0f1f38;     /* 导航背景 */
+$nav-hover: #050a0e;     /* 导航悬浮选中 */
+$name-color: #494949;     /* name字色 */
+$nav-name-color: #7d93aa;     /* 导航字色 */
+$bread-color: #929ca6;     /* 面包屑字色 */
+
+$color-primary: #1e7de3;    /* 链接高亮等样色 */
+$color-primary-light-1: rgba(95, 135, 221, .1);
+$color-primary-light-2: rgba(95, 135, 221, .2);
+
+
+$color-success: #1fbd9a;    /* 成功状态的颜色 */
+$color-warning: #F28C51;    /* 告警状态的颜色 */
+$color-error: #d92b2c;      /* 失败状态的颜色 */
+$color-setting: #82c26c;      /* 按钮颜色 */
+
+$color-info: #909399;
+$color-info-light-1: rgba(144, 147, 153, .1);
+$color-info-light-2: rgba(144, 147, 153, .2);
+
+/* 威胁等级颜色值控制 */
+$color-emergency: #CF4343;   /* 危机 */
+$color-high: #F28C51;        /* 高 */
+$color-medium: #F6C758;      /* 中 */
+$color-low: #5D87DD;         /* 低 */
+$color-info-extra: #6299EC;  /* 信息 */
+
+/* Transition
+------------------------------ */
+$transition-duration: .3s;
+$transition-timing-function: cubic-bezier(.645, .045, .355, 1);
+
+/* Body
+--------------------------- */
+$body-bg-color: #E7EEF5;
+
+/* Layout
+-------------------------- */
+$layout-gutter: 10px;
+$layout-transition: width $transition-duration $transition-timing-function;
+
+/* Font
+-------------------------- */
+$font-color-default: #333; /* 字体默认颜色 */
+$font-color-base: $white;
+$font-size-10: 1rem;
+$font-size-12: 1.2rem;
+$font-size-13: 1.3rem;
+$font-size-14: 1.4rem;
+$font-size-16: 1.6rem;
+$font-size-mid: 2rem;
+$font-size-max: 2.6rem;
+
+  /* Icon
+-------------------------- */
+$icon-new-tag-color: #CF4343;
+$tag-danger-bg: #fef0f0;
+
+/* Border
+-------------------------- */
+$border-default: 1px solid #d3d3d3;
+$border-color: 1px solid #ededed;
+$box-border-color: #d3d3d3;
+$box-header-bgcolor: #F7FAFF;
+$box-title-bgcolor: #F6F6F6;
+$box-title-color: #072e65;
+$box-border-top: #F7FAFF solid 6px;
+$box-title-top: #F6F6F6 solid 6px;
+$border-radius-default: 2px;
+$border-radius: 3px;
+
+/* Switch
+-------------------------- */
+$switch-default-color: #999999;
+$switch-active-color: $button-color;
+$switch-border-color: #EBEBEB;
+$switch-bg-color: #EBEBEB;
+$switch-after-border-color: #5D87DD;
+$switch-after-bg-color: #5D87DD;
+
+/* input
+-------------------------- */
+$input-placeholder-color: #666;
+$input-border-radius: $border-radius-default;
+$input-border-active-color: $color-primary;
+
+/* Textarea
+-------------------------- */
+$textarea-border-radius: $border-radius-default;
+
+/* Select
+--------------------------- */
+$select-font-color-active: $color-primary;
+$select-border-color-focus: $color-primary;
+
+/* Checkbox
+------------------------------ */
+$checkbox-label-font-color-checked: $color-primary;
+$checkbox-input-bg-color-checked: $color-primary;
+$checkbox-input-border-color-hover: $color-primary;
+$checkbox-input-border-color-checked: $color-primary;
+
+/* Radio
+------------------------------- */
+$radio-label-font-color-checked: $color-primary;
+$radio-input-bg-color-checked: $color-primary;
+$radio-input-border-color-checked: $color-primary;
+
+/* Tag
+------------------------------ */
+/*danger*/
+$tag-font-color-danger: #f06471;
+$tag-bg-danger: #feeaec;
+$tag-font-color: $color-primary;
+$tag-bg-color: $color-primary-light-1;
+$tag-border-color: $color-primary-light-2;
+/* info */
+$tag-font-color-info: $color-info;
+$tag-bg-color-info: $color-info-light-1;
+$tag-border-color-info: $color-info-light-2;
+
+/* Pannel
+-------------------------- */
+$pannel-bg-color-base: #f2f2f2;
+
+/* Button
+-------------------------- */
+$button-border-radius: $border-radius-default;
+$button-font-color-hover: $color-primary;
+$button-border-color-hover: $color-primary-light-2;
+$button-bg-color-left: #2096d5; /* button渐变起始色 */
+$button-bg-color-right: #21cedc; /* button渐变终止色 */
+/* $button-bg-color-hover: #ecf5ff; */
+$button-text-color: #5D87DD;
+$button-hover-color: #c5e3fd;
+$button-delete-color: $color-error;
+$button-text-disabled-color: #CCCCCC;
+$button-defalut-color: #FFFFFF, #F6F6F6;
+$button-success-disabled-color: #E0F0C1;
+$button-warning-disabled-color: #FBDCCA;
+$button-danger-disabled-color: #F1C6C6;
+$button-linear-gradient: (#fff, #f6f6f6);
+
+/* Table
+-------------------------- */
+$table-font-default: #666666; /*  表格内容颜色 */
+$table-header-font-color: #676767; /*  表格头部颜色 */
+$table-header-font-weight: bold; /*  表格头字号 */
+$table-pagination-bg-color: #515151;
+$table-pagination-color: #515151; /*  分页按钮颜色 */
+$table-row-highlight-color: #c9e5f5; /* 表格高亮 */
+
+/* input
+-------------------------- */
+$input-slot-color: #409eff;
+
+/* Tabs
+------------------------------ */
+$tabs-font-color-active: $color-primary;
+
+/* z-index 等级控制
+popover( 2000开始累加) > menu > navigator = header  > loadding > 其他
+----------------------------------*/
+$zindex-base: 1001;
+$zindex-loading: 1500;
+$zindex-menu: 1999;
+$zindex-header: 1990;
+$zindex-bread: 1980;
+$zindex-navigator: 1990;
+$zindex-bread-above: 1985;
+$alerm-loading-zindex: 2500; /*特殊控制，popover默认显示，所以loading层级应该大于popover*/
+
+/* header
+-------------------------- */
+$header-height: 70px;
+$header-bg-color: #00a7eb;
+$header-bg-color-left: #2092d5; /* head渐变起始色 */
+$header-bg-color-right: #20d1dc; /* head渐变终止色 */
+$header-title-color: linear-gradient(180deg,#F1D89A,#907B3D);
+$header-border-color: rgba(36, 36, 36, 1);
+$header-txt-color: $white;
+$header-bottom-border-color: #eeeeee;
+$header-title-size: $font-size-max;
+$header-line-light: #444;
+$header-line-dark: #222;
+$header-box-shadow: 0px 3px 3px 0px $header-bg-color;
+
+/*
+ Menu 尺寸控制，联动关系
+-------------------------- */
+$menu-collapse-width: 95px;
+$menu-spread-width: 180px;
+$menu-root-icon-color: #51c6ea;
+$menu-child-icon-color: #b4b6bd;
+$menu-wrapper-height: 40px;
+
+
+/* navigator
+  --------------------------*/
+$navigator-height: 70px;
+$navigator-bg-color: #f0f4f7;
+$navigator-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+$navigator-item-bg-color: #f1f1f1;
+$navigator-item-font-color: #666;
+$navigator-item-border-color: #d2d2d2;
+$navigator-item-bg-color-active: linear-gradient(180deg,#fee279,#e5a936);
+$navigator-item-font-color-active: #855f02;
+$navigator-item-border-color-active: #f0c152;
+$navigator-item-close-bg-hover: #aeafb1;
+$navigator-item-close-bg-active-hover: #baa265;
+$navigator-contextmenu-bg-color: $white;
+$navigator-contextmenu-bg-color-active: #eee;
+$navigator-contextmenu-font-color: #333;
+$navigator-contextmenu-icon-close-color: #CF4343;
+$navigator-contextmenu-icon-refresh-color: #5D87DD;
+$navigator-transition: left $transition-duration $transition-timing-function;
+$navigator-transition-margin: margin-left $transition-duration $transition-timing-function;
+
+/* module
+---------------------------*/
+$module-display-background: #F5F5F5;
+
+
+/* Widget
+------------------------------- */
+$widget-border: $border-default;
+$widget-border-color: $border-color;
+$widget-bg-color: $white;
+$widget-bg-translucent-color: rgba(255, 255, 255, 0.5);
+$widget-gutter: $layout-gutter;
+
+/* tree-select
+------------------------------- */
+$select-cover-color: #606266;
+$select-cover-border-color: #dcdfe6;
+$select-hover-color: #409eff;
+$select-txt-color: #c4c8cf;
+
+/* 登录相关
+----------------------------- */
+$login-bg: linear-gradient(to bottom, #434343, #333333, #242424);
+$login-font-color: #fff;
+$login-link-font-color: #fff;
+$login-input-border-color: #00CCFF;
+$login-input-font-color: #00CCFF;
+$login-input-icon-color: #E0E0E0;
+$login-input-placeholder-color: #AAB2BD;
+$login-button-bg: linear-gradient(to bottom, #5DD6E4, #00CCFF);
+$login-buton-font-color: #fff;
+$login-error-color: $color-error;
+$login-loading-bg: rgba(255, 255 ,255 , 0);
+$login-loading-progress-bg: #434343;
+$login-loading-progress: linear-gradient(to bottom, #3D95EF, #056BD4);
