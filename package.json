@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "element-ui": "^2.6.3",
-    "markdown-it": "^8.4.2",
+    "markdown-it": "^12.3.2",
     "markdown-it-container": "^2.0.0",
     "scroll": "^3.0.1",
     "vue": "^2.5.17",
