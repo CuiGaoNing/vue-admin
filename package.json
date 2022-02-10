@@ -55,7 +55,7 @@
     "koa-router": "^7.4.0",
     "less": "^3.0.4",
     "less-loader": "^4.1.0",
-    "node-sass": "^4.11.0",
+    "node-sass": "^7.0.0",
     "pm2": "^4.1.2",
     "sass-loader": "^7.3.1",
     "shelljs": "^0.8.3",
